@@ -92,7 +92,7 @@
 
     <header class="hero">
         <img class="hero-img" src="https://pbs.twimg.com/profile_images/1408402651516002317/TPV1TeNV_400x400.jpg" alt="hero images">
-        <h1 class="hero-heading">heading inside header
+        <h1 class="hero-heading">heading inside <span class="hero-inverted"> header</span>
         </h1>
     </header>
 
@@ -100,30 +100,38 @@
 
     <h2>@sections</h2>
 
-    <section>
-        <h3>white section</h3>
-        <p>this will have white background</p>
+    <section class="section">
+        <div class="container container-center">
+            <h3>white section</h3>
+            <p>MDN is 16 years old (and yes it can drink in some countries), all that time ago it was a great place for all of Mozilla to document all of their things. As MDN evolved and the web reference became our core content, other areas became less
+                relevant to the overall site. We have ~11k active pages on MDN, so keeping them up to date is a big task and we feel our focus should be there.The post Spring cleaning MDN: Part 2 appeared first on Mozilla Hacks</p>
+        </div>
+
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p>this will have gray background</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h3>off white section</h3>
+            <p>MDN is 16 years old (and yes it can drink in some countries), all that time ago it was a great place for all of Mozilla to document all of their things. As MDN evolved and the web reference became our core content, other areas became less
+                relevant to the overall site. We have ~11k active pages on MDN, so keeping them up to date is a big task and we feel our focus should be there.The post Spring cleaning MDN: Part 2 appeared first on Mozilla Hacks</p>
+        </div>
+
     </section>
 
     <hr>
     <h2>@footer</h2>
 
-    <footer>
-        <div>Some small heading inside footer</div>
-        <ul>
-            <li>
-                socialOne
+    <footer class="footer">
+        <div class="footer-header">Some small heading inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="/">socialOne</a>
+
             </li>
-            <li>
-                socialTwo
+            <li class="list-item-inline"><a class="link" href="/">socialTwo</a>
+
             </li>
-            <li>
-                socialThree
+            <li class="list-item-inline"><a class="link" href="/">socialThree</a>
+
             </li>
         </ul>
     </footer>
